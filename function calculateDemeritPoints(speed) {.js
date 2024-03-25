@@ -12,7 +12,4 @@ function calculateDemeritPoints(speed) {
 
     if (demeritPoints >= maxDemeritPoints) {
         console.log("License suspended");
-    } else {
-        console.log("Points: " + demeritPoints);
-    }
-}
+    } 
