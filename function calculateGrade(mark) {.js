@@ -11,7 +11,7 @@ function calculateGrade(mark) {
     else if (mark >= 40 && mark <= 49) {
         return 'D';
     } 
-    else if (mark < 40) {
+    else {
         return 'E';
     }
 }
@@ -20,7 +20,7 @@ function main() {
     const readline = require('readline).createInterface({
         input: process. stdin,
         output: process. stdout
-       })
+        )}
     readline.question("Enter the student's mark (between 0 and 100): ", (input) => {
         const mark = parseFloat(input);
         if ( mark >= 0 && mark <= 100) {
